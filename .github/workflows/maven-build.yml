@@ -3,10 +3,10 @@ name: Maven Build
 on:
   push:
     branches:
-      - main  # Change this if your branch has a different name
+      - master  # Updated to match the branch name
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   build:
